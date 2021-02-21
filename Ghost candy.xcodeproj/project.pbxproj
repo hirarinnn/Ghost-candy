@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3DD42525BD422300DB7A18 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DD42425BD422300DB7A18 /* RankingViewController.swift */; };
 		2C1BC42E2581F9ED00193BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1BC42D2581F9ED00193BF6 /* AppDelegate.swift */; };
 		2C1BC4302581F9ED00193BF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1BC42F2581F9ED00193BF6 /* SceneDelegate.swift */; };
 		2C1BC4322581F9ED00193BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1BC4312581F9ED00193BF6 /* ViewController.swift */; };
 		2C1BC4352581F9ED00193BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BC4332581F9ED00193BF6 /* Main.storyboard */; };
 		2C1BC4372581F9EE00193BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BC4362581F9EE00193BF6 /* Assets.xcassets */; };
 		2C1BC43A2581F9EE00193BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BC4382581F9EE00193BF6 /* LaunchScreen.storyboard */; };
+		2C1BC4432581FADB00193BF6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1BC4422581FADB00193BF6 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C1BC42A2581F9ED00193BF6 /* NewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3DD42425BD422300DB7A18 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		2C1BC42A2581F9ED00193BF6 /* Ghost candy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost candy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1BC42D2581F9ED00193BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C1BC42F2581F9ED00193BF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C1BC4312581F9ED00193BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		2C1BC4362581F9EE00193BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C1BC4392581F9EE00193BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1BC43B2581F9EE00193BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1BC4422581FADB00193BF6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		2C1BC42B2581F9ED00193BF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C1BC42A2581F9ED00193BF6 /* NewPractice.app */,
+				2C1BC42A2581F9ED00193BF6 /* Ghost candy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				2C1BC42D2581F9ED00193BF6 /* AppDelegate.swift */,
 				2C1BC42F2581F9ED00193BF6 /* SceneDelegate.swift */,
 				2C1BC4312581F9ED00193BF6 /* ViewController.swift */,
+				2C1BC4422581FADB00193BF6 /* GameScene.swift */,
+				0C3DD42425BD422300DB7A18 /* RankingViewController.swift */,
 				2C1BC4332581F9ED00193BF6 /* Main.storyboard */,
 				2C1BC4362581F9EE00193BF6 /* Assets.xcassets */,
 				2C1BC4382581F9EE00193BF6 /* LaunchScreen.storyboard */,
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C1BC4292581F9ED00193BF6 /* NewPractice */ = {
+		2C1BC4292581F9ED00193BF6 /* Ghost candy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C1BC43E2581F9EE00193BF6 /* Build configuration list for PBXNativeTarget "NewPractice" */;
+			buildConfigurationList = 2C1BC43E2581F9EE00193BF6 /* Build configuration list for PBXNativeTarget "Ghost candy" */;
 			buildPhases = (
 				2C1BC4262581F9ED00193BF6 /* Sources */,
 				2C1BC4272581F9ED00193BF6 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = NewPractice;
+			name = "Ghost candy";
 			productName = NewPractice;
-			productReference = 2C1BC42A2581F9ED00193BF6 /* NewPractice.app */;
+			productReference = 2C1BC42A2581F9ED00193BF6 /* Ghost candy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C1BC4252581F9ED00193BF6 /* Build configuration list for PBXProject "NewPractice" */;
+			buildConfigurationList = 2C1BC4252581F9ED00193BF6 /* Build configuration list for PBXProject "Ghost candy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C1BC4292581F9ED00193BF6 /* NewPractice */,
+				2C1BC4292581F9ED00193BF6 /* Ghost candy */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3DD42525BD422300DB7A18 /* RankingViewController.swift in Sources */,
 				2C1BC4322581F9ED00193BF6 /* ViewController.swift in Sources */,
 				2C1BC42E2581F9ED00193BF6 /* AppDelegate.swift in Sources */,
+				2C1BC4432581FADB00193BF6 /* GameScene.swift in Sources */,
 				2C1BC4302581F9ED00193BF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2P8732Z2M;
+				DEVELOPMENT_TEAM = FVXVLCMT2M;
 				INFOPLIST_FILE = NewPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.8080suisho.NewPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = "hirakawa.yutaka-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +314,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2P8732Z2M;
+				DEVELOPMENT_TEAM = FVXVLCMT2M;
 				INFOPLIST_FILE = NewPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.8080suisho.NewPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = "hirakawa.yutaka-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C1BC4252581F9ED00193BF6 /* Build configuration list for PBXProject "NewPractice" */ = {
+		2C1BC4252581F9ED00193BF6 /* Build configuration list for PBXProject "Ghost candy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C1BC43C2581F9EE00193BF6 /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C1BC43E2581F9EE00193BF6 /* Build configuration list for PBXNativeTarget "NewPractice" */ = {
+		2C1BC43E2581F9EE00193BF6 /* Build configuration list for PBXNativeTarget "Ghost candy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C1BC43F2581F9EE00193BF6 /* Debug */,
